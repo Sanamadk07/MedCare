@@ -13,7 +13,7 @@ include "includes/head.php";
     ?>
     <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
         <?php
-       z
+       
         ?>
         <div class="container">
             <div class="row align-items-start">
@@ -75,7 +75,7 @@ include "includes/head.php";
 
         <?php
         }
-        edit_user($_SESSION['id']);
+        edit_user($_SESSION );
 
         ?>
         <div class="table-responsive">
@@ -110,7 +110,7 @@ include "includes/head.php";
                         <tr>
                             <td><?php echo $data[$i]['user_id'] ?></td>
                             <td><?php echo $data[$i]['user_fname'] ?></td>
-                             <td><?php echo $data[$i]['user_Lname'] ?></td>
+                             <td><?php echo $data[$i]['user_lname'] ?></td>
                             <td><?php echo $data[$i]['email'] ?></td>
                             <td><?php echo $data[$i]['user_address'] ?></td>
                             <td>
