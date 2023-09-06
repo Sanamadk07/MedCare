@@ -64,8 +64,8 @@
                     Copyright &copy;
                     <script>
                         document.write(new Date().getFullYear());
-                    </script> All rights reserved | This website was made
-                  by <a href="https://sanamadhikari07.com.np/" target="_blank" class="text-primary">MR. SANAM ADHIKARI</a>
+                    </script>
+                  <a href="https://sanamadhikari07.com.np/" target="_blank" class="text-primary"></a>
                 </p>
             </div>
 
